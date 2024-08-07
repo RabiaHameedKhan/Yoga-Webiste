@@ -386,7 +386,23 @@ textarea {
     }
 }
 
-.leaf-img, .practice-box-1 h1 {
+.leaf-img  {
+    animation: slideInFromBottom 2s ease-out;
+}
+
+/* Animation for sliding in from bottom */
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.practice-box-1 h1 {
     animation: slideInFromBottom 2s ease-out;
 }
 
