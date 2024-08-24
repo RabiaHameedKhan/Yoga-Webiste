@@ -397,7 +397,7 @@ textarea {
 
 @media (max-width: 480px) {
     .background-image-container {
-        height: 350px;
+        height: 450px;
     }
 
     .text-overlay h1 {
